@@ -5,10 +5,11 @@ An interactive computer vision-based drawing system that allows users to draw, e
 Built using OpenCV and MediaPipe, this project demonstrates real-time gesture recognition, UI interaction, and multi-slide presentation capabilities.
 
 🚀 Features
-✋ Gesture-Based Interaction
-✍️ Draw using index finger
-🖐️ Hover to navigate UI
-🧽 Erase using multi-finger gesture
+
+1. ✋ Gesture-Based Interaction
+2. ✍️ Draw using index finger
+3. 🖐️ Hover to navigate UI
+4. 🧽 Erase using multi-finger gesture
 
 🔄 Translate (move objects)
 🎨 Drawing Tools

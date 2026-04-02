@@ -12,33 +12,39 @@ Built using OpenCV and MediaPipe, this project demonstrates real-time gesture re
 4. 🧽 Erase using multi-finger gesture
 
 🔄 Translate (move objects)
+
 🎨 Drawing Tools
-Multiple colors and shapes (Line, Circle, Square)
-Adjustable pen thickness
-Adjustable eraser size
-Undo / Redo support
+1. Multiple colors and shapes (Line, Circle, Square)
+2. Adjustable pen thickness
+3. Adjustable eraser size
+4. Undo / Redo support
 
 🧾 Presentation Mode
-Multi-slide support
-Insert custom images as slide backgrounds
-Dynamic image scaling
-Slide navigation (Next / Previous / Delete)
+
+1. Multi-slide support
+2. Insert custom images as slide backgrounds
+3. Dynamic image scaling
+4. Slide navigation (Next / Previous / Delete)
 
 🧠 Smart UI
-Floating top-bar interface
-Dwell-based clicking (hover to select)
-Dark mode support
+
+1. Floating top-bar interface
+2. Dwell-based clicking (hover to select)
+3. Dark mode support
 
 💾 Export System
-Save slides as clean PNG images (no UI overlay)
-Presentation-ready outputs
+
+1. Save slides as clean PNG images (no UI overlay)
+2. Presentation-ready outputs
 
 📊 Evaluation Module
-FPS & latency benchmarking
-Jitter (stability) measurement
-Gesture accuracy testing
+
+1. FPS & latency benchmarking
+2. Jitter (stability) measurement
+3. Gesture accuracy testing
 
 🏗️ System Architecture
+
 Webcam Input
      ↓
 MediaPipe Hand Tracking (21 landmarks)
@@ -54,26 +60,35 @@ Output Frame / Saved Slides
 📐 Core Concepts
 
 🟢 Hand Tracking
+
 Uses 21 hand landmarks from MediaPipe
 
 🔵 Gesture Recognition
+
 Based on vector angles between fingers
+
 Uses cosine similarity to detect:
-Draw
-Hover
-Erase
-Translate
+a) Draw
+b) Hover
+c) Erase
+d) Translate
 
 🟡 Mathematical Foundations
-Euclidean Distance → radius, scaling
-Cosine Similarity → gesture classification
-Standard Deviation → jitter analysis
+
+I. Euclidean Distance → radius, scaling
+II. Cosine Similarity → gesture classification
+III. Standard Deviation → jitter analysis
 
 🧪 Evaluation Metrics
+
 Metric	Description
+
 FPS	Measures smoothness
+
 Latency	Time per frame (ms)
+
 Jitter	Stability of hand tracking
+
 Accuracy	Gesture detection correctness
 
 ⚙️ Installation
@@ -84,12 +99,15 @@ cd airdraw
 pip install opencv-python mediapipe numpy
 
 ▶️ Usage
-Run main application
+
+1. Run main application
 python main.py
-Run evaluation tool
+
+3. Run evaluation tool
 python evaluate.py
 
 🎮 Controls
+
 Keyboard
 Key	Action
 n	Next slide
@@ -120,11 +138,12 @@ Index + Pinky	Translate
 ├── util.py              # Math utilities
 
 🔥 Key Highlights
-Real-time gesture-based interaction
-Custom UI built entirely using OpenCV
-Multi-slide virtual presentation system
-Non-destructive image scaling
-Robust evaluation framework
+
+i. Real-time gesture-based interaction
+ii. Custom UI built entirely using OpenCV
+iii. Multi-slide virtual presentation system
+iv. Non-destructive image scaling
+v. Robust evaluation framework
 
 🚧 Future Improvements
 

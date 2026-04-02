@@ -140,15 +140,23 @@ Index + Pinky	Translate
 🔥 Key Highlights
 
 i. Real-time gesture-based interaction
+
 ii. Custom UI built entirely using OpenCV
+
 iii. Multi-slide virtual presentation system
+
 iv. Non-destructive image scaling
+
 v. Robust evaluation framework
 
 🚧 Future Improvements
 
 🤖 ML-based gesture classification
+
 🎤 Voice command integration
+
 🧠 Shape recognition (auto-detect shapes)
+
 🌐 Web-based version (WebRTC)
+
 🥽 AR/VR integration
